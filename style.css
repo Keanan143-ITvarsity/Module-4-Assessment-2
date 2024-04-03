@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #36454F;
+}
+.header{
+    background-color: #111518;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+
+}
+
+h2{
+    color: white;
+}
+
+/*=========================== Grid ============================= */
+
+#grid1-1{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+#grid1-2{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+#grid1-3{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+#grid2-1{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+
+#grid2-2{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+#grid2-3{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+
+#grid3-1{
+    position: absolute;
+    left: 0px;
+    top: 500px;
+}
+
+#grid3-2{
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+
+#grid3-3{
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+
+/*=========================== Images ============================= */
+
+#img1-1-draggable{
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+#img1-2-draggable{
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+#img1-3-draggable{
+    position: absolute;
+    left: 110px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+
+#img2-1-draggable{
+    position: absolute;
+    left: 180px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+#img2-2-draggable{
+    position: absolute;
+    left: 250px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+#img2-3-draggable{
+    position: absolute;
+    left: 320px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+
+#img3-1-draggable{
+    position: absolute;
+    left: 390px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+
+#img3-2-draggable{
+    position: absolute;
+    left: 460px;
+    bottom: 0;
+    transform: scale(0.3);
+}
+
+#img3-3-draggable{
+    position: absolute;
+    left: 530px;
+    bottom: 0;
+    transform: scale(0.3);
+}
